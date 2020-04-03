@@ -84,4 +84,3 @@ class Game:
             self.fruit.draw(self.screen)
             self.snake.draw(self.screen)
             pygame.display.flip()
-
