@@ -1,0 +1,24 @@
+import random
+import pygame
+
+
+class Tree:
+    tree = []
+    height = 12 # height of the tree
+    trunk = (160, 82, 45) # color of the trunk
+    leaf = (58, 95, 11) # color of the branches and leaves
+
+    def __init__(self):
+        for i in range(3):
+            self.tree.append([False, False])
+        for i in range(self.height - 3):
+            self.generate()
+
+    def generate(self):
+        side = random.randint(0, 1)
+        self.tree.append([side == 0, side == 1])
+
+    def draw(self, screen, width, height):
+        # width is the width of the screen
+	# height is the height of the screen
+	# trunk must be drawn at the center of the screen

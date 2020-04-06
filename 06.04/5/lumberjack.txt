@@ -1,0 +1,18 @@
+import random
+import pygame
+
+
+class Lumberjack:
+    color = (255, 0, 0)
+
+    def __init__(self):
+        ??? what is the only characteristic of lumberjack
+
+    def move(self, direction):
+        ??? direction is either -1 if move to the left, or 1 if move to the right
+
+    def collision(self, tree):
+        ??? return true, if branch of the tree collides with the lumberjack
+
+    def draw(self, screen):
+        ???

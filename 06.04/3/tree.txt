@@ -1,0 +1,14 @@
+import random
+import pygame
+
+
+class Tree:
+
+    def __init__(self):
+	??? how to store the tree
+
+    def generate(self):
+	??? how to generate the tree
+
+    def descent(self):
+	??? how to make the tree move down by one 		level
